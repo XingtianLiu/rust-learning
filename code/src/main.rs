@@ -1,5 +1,9 @@
 
 
-fn main (){
-    println!("xxx")
+fn main(){
+    
+}
+
+fn life1(){
+    
 }

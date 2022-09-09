@@ -4,7 +4,9 @@
         "label": "build",
         "type": "shell",
         "command": "cargo",
-        "args": ["build"],
+        "args": [
+            "build"
+        ],
         "options": {
             "cwd": "${workspaceFolder}/code"
         },
