@@ -2,16 +2,16 @@
  * @Author: lxt
  * @Date: 2022-09-09 13:26:41
  * @LastEditors: [lxt]
- * @LastEditTime: 2022-09-09 16:53:49
+ * @LastEditTime: 2022-09-15 15:49:24
  * @Description: // # 
  */
 
 
 use std::fmt::Display;
 use std::fmt::Debug;
-use code::Summary;
-use code::Tweet;
-use code::NewsArticle;
+use evan_toy::Summary;
+use evan_toy::Tweet;
+use evan_toy::NewsArticle;
 
 fn main(){
     trait_fn();

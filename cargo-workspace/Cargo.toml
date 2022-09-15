@@ -1,0 +1,8 @@
+[workspace]
+
+
+members = [
+    "adder", # cargo new adder
+    "add-one", # cargo new add-one --lib
+    
+]

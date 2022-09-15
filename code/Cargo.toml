@@ -1,8 +1,10 @@
 [package]
-name = "code"
+name = "evan_toy"
+description="test"
 version = "0.1.0"
 edition = "2021"
-
+author="evan liu"
+license="MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
@@ -11,4 +13,7 @@ rand="^0.8.3"
 
 [profile.release]
 panic = 'abort'
+opt-level=3
 
+[profile.dev]
+opt-level=0 # 编译时执行哪种程度的优化 0~3 越大编译时间越长
