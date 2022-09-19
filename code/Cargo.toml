@@ -6,9 +6,13 @@ edition = "2021"
 author="evan liu"
 license="MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 rand="^0.8.3"
+syn = "1.0.98" # 把 rust 从字符串转换为可供操作的数据结构
+quote="1.0.20" # 将 syn 的数据结构重新转换为 rust 代码
+
+[lib]
+proc-macro = true
 
 
 [profile.release]
